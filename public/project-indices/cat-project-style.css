@@ -1,0 +1,25 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #1F1717;
+    background-color: #FCF5ED;
+    text-align: center;
+}
+
+.section {
+    padding: 30px;
+}
+
+h1 {
+    background-color: #F4BF96;
+    padding: 40px;
+}
+
+.pic {
+    display: inline;
+    max-width: 200px;
+}
+
+img {
+    height: 200px;
+}
+

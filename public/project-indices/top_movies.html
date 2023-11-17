@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: #282828;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .header {
+            color: white;
+            background-color: black;
+            padding: 25px 0px 10px 20px;
+            margin-bottom: 50px;
+        }
+        
+        .review-container {
+            display: flex;
+            gap: 20px;
+            flex-basis: 500px;
+            justify-content: start;
+        }
+
+        .review {
+            height: 60vh;
+            background-color: #838383;
+            flex: 1 1 0;
+            width: 0;
+            max-width: 250px;
+            text-align: center;
+        }
+
+        img {
+            height: 300px;
+            padding: 10px 0px 0px 0px;
+            text-align: center;
+            object-fit: contain;
+        }
+
+        @media (max-width: 750px) {
+            .review-container {
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .review {
+                width:auto
+            }
+        }
+
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <h1>Anna's Movie Reviews</h1>
+    </div>
+
+    <div class="review-container">
+        <div class="review">
+        <img src="./top-movies-images/forrest-gump.jpg" alt="Forrest Gump" />
+        <p>Mixes comedy, drama, and moments in American history. </p>
+        </div>
+
+        <div class="review">
+        <img src="./top-movies-images/legally-blonde.jpeg" alt="Legally Blonde" />
+        <p>Iconic comedy with Reese Witherspoon.</p>
+        </div>
+
+        <div class="review">
+        <img src="./top-movies-images/amadeus.jpg" alt="Amadeus" />
+        <p>Hilarious and thought-provoking take on Mozart.</p>
+        </div>
+    </div>
+</body>
+</html>
+

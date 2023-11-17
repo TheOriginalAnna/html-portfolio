@@ -1,0 +1,67 @@
+.navbar {
+    background-color: #0CC0DF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.nav-link {
+    color: white;
+    font-size: 17px;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+@media (min-width: 1000px) {
+  .flex-container {
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 16vh;
+}  
+}
+
+@media (max-width: 999px) {
+    .flex-container {
+        text-align: center;
+    }
+}
+
+
+.intro {
+    padding-top: 115px;
+    white-space: nowrap;
+}
+
+h1 {
+    color: #004AAD;
+    font-size: 58px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+/* CSS for Navbar without bootstrap
+
+#navbar {
+    background-color: #0CC0DF;
+    color: white;
+}
+
+.navbar-title {
+    font-size: 32px
+}
+
+.navbar-link {
+    font-size: 15px
+}
